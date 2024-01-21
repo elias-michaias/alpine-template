@@ -3,7 +3,7 @@
 A template for the web using Alpine.js.
 Based off of `create-alpine-app`, it includes conveniences like Tailwind and PostCSS.
 
-Beyond those, I've also included several libraries and Plugins with the goal of 
+Beyond those, I've also included several libraries and plugins with the goal of 
 completing Alpine and building it into a more monolithic framework.
 
 The goal of this template is to fully actualize HTML as a cohesive language on its own,
