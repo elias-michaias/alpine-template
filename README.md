@@ -16,7 +16,7 @@ as possible without leaving my markup.
 
 ## Why not HTMX?
 While HTMX is a fine solution, I personally prefer doing things the Alpine way, and Alpine AJAX
-completes Alpine in the realm of client-server communication, making HTMX unnecessary for me personally.
+completes Alpine in the realm of client-server communication, making HTMX unnecessary for me.
 While Alpine and HTMX are certainly used together fairly often, I find that I don't need to use HTMX
 to meet my needs.
 
