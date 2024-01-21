@@ -9,7 +9,7 @@ completing Alpine and building it into a more monolithic framework.
 The goal of this template is to fully actualize HTML as a cohesive language on its own,
 and optimize productivity. Alpine's native features make front-end seamless, Tailwind
 removes the need for fiddling with CSS, Alpine AJAX makes server requests
-a breeze from any element, and the other libraries included like VimeshUI and Pinecone Router bring in 
+a breeze from any element, and the other libraries included like Vimesh-UI and Pinecone Router bring in 
 conveniences like component abstraction and routing that Alpine would normally expect
 a back-end templating solution for. This is my personal setup for doing as much development
 as possible without leaving my markup. To top it off, for the 10% of the time that I need to go outside of my markup
@@ -33,3 +33,9 @@ in my experience with React.
 
 ## "This template isn't viable for enterprise."
 Correct.
+
+### Relevant resources 
+- Achieving reusable components in Alpine: [vimesh-ui](https://github.com/vimeshjs/vimesh-ui)
+- Achieving seamless routing in Alpine: [pinecone-router](https://github.com/pinecone-router/router)
+- Achieving easy AJAX requests in Alpine: [alpine-ajax](https://alpine-ajax.js.org/)
+
