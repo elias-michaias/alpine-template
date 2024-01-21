@@ -12,17 +12,17 @@ removes the need for fiddling with CSS, Alpine AJAX makes server requests
 a breeze from any element, and the other libraries included like VimeshUI and Pinecone Router bring in 
 conveniences like component abstraction and routing that Alpine would normally expect
 a back-end templating solution for. This is my personal setup for doing as much development
-as possible without leaving my markup.
+as possible without leaving my markup. 
 
-## Why not HTMX?
+## "Why not HTMX?"
 While HTMX is a fine solution, I personally prefer doing things the Alpine way, and Alpine AJAX
 completes Alpine in the realm of client-server communication, making HTMX unnecessary for me.
 While Alpine and HTMX are certainly used together fairly often, I find that I don't need to use HTMX
 to meet my needs.
 
-## Why not React/Vue/Svelte?
+## "Why not React/Vue/Svelte?"
 Doing as much inside of my markup as possible is a very appealing idea for me. If it is for you,
 then this template may also be for you. If not, that's perfectly fine! 
 
-## This template isn't viable for enterprise.
+## "This template isn't viable for enterprise."
 Correct.
