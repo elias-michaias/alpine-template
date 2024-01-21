@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.png" />
+  <link href="./index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>[x-cloak] {display: none !important}</style>
+  <script src="https://unpkg.com/@vimesh/ui"></script>
+  <title>Pineblog</title>
+</head>
+
+<body class="m-5" x-import="
+  counter
+">
+
+  
+  <template x-route="/" x-template="/routes/home.html"></template>
+
+  <div class="p-4" x-markdown="`
+
+# This is some markdown content.
+**Bold!**
+*Italic!* 
+***Both?***
+
++ List 
++ With 
++ Items
+
+~~Strikethrough~~
+
+  `"></div>
+
+  <script type="module" src="/index.js"></script>
+</body>
+
+</html>
