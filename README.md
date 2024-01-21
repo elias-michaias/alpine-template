@@ -22,7 +22,11 @@ to meet my needs.
 
 ## "Why not React/Vue/Svelte?"
 Doing as much inside of my markup as possible is a very appealing idea for me. If it is for you,
-then this template may also be for you. If not, that's perfectly fine! 
+then this template may also be for you. If not, that's perfectly fine! For my part, I don't find
+JavaScript to be very enjoyable to be writing oodles of. Alpine's "just enough JavaScript" approach
+is exactly the kind of thing I like, and the power that comes from it allows me to do almost everything
+I need with a level of brevity and productivity that is orders of magnitude higher than what I found
+in my experience with React.
 
 ## "This template isn't viable for enterprise."
 Correct.
