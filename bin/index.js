@@ -16,7 +16,7 @@ const runCommand = command => {
 
 const repoName = process.argv[2];
 
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/thedevdojo/create-alpine-app ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/elias-michaias/beefy-alpine-app ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install && node init.js`;
 
 console. log(`Cloning the repository with name ${repoName}`);

@@ -1,4 +1,4 @@
-# alpine-template
+# beefy-alpine-app
 
 A template for the web using Alpine.js.
 Based off of `create-alpine-app`, it includes conveniences like Tailwind and PostCSS.
@@ -12,7 +12,10 @@ removes the need for fiddling with CSS, Alpine AJAX makes server requests
 a breeze from any element, and the other libraries included like VimeshUI and Pinecone Router bring in 
 conveniences like component abstraction and routing that Alpine would normally expect
 a back-end templating solution for. This is my personal setup for doing as much development
-as possible without leaving my markup. 
+as possible without leaving my markup. To top it off, for the 10% of the time that I need to go outside of my markup
+in order to construct a more complicated solution, I always have the ability to use Alpine's extensibility to my 
+advantage and create a custom directive. It's beautiful. Write JavaScript once, pack it into an HTML attribute,
+and slap it wherever you need it.
 
 ## "Why not HTMX?"
 While HTMX is a fine solution, I personally prefer doing things the Alpine way, and Alpine AJAX
