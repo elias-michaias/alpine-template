@@ -1,6 +1,6 @@
 # alpine-template
 
-A template for the web based on Alpine.js.
+A template for the web using Alpine.js.
 Based off of `create-alpine-app`, it includes conveniences like Tailwind and PostCSS.
 
 Beyond those, I've also included several libraries and Plugins with the goal of 
