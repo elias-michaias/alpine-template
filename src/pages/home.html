@@ -1,0 +1,25 @@
+<div x-init x-import="counter" x-data="{
+    word: 'home',
+    show: true,
+    start_value: 4,
+  }">
+  <p x-jsz x-show="show">Welcome to the {{ word }} page!</p>
+  <y-counter x-data="{count: word.length - start_value}"></y-counter>
+
+
+  <div class="p-4" x-markdown="`
+
+# This is some markdown content.
+**Bold!**
+*Italic!* 
+***Both?***
+
++ List 
++ With 
++ Items
+
+~~Strikethrough~~
+
+  `"></div>
+
+</div>

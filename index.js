@@ -3,6 +3,7 @@ import { marked } from 'marked'
 import PineconeRouter from 'pinecone-router'
 import ajax from '@imacrayon/alpine-ajax'
 import AutoAnimate from '@marcreichel/alpine-auto-animate'
+import alpineMotion from "@braedencrankd/alpine-motion";
 import jsz from 'alpinejs-jsz'
 import Toolkit from '@alpine-collective/toolkit'
 import Alpine from 'alpinejs'
@@ -36,6 +37,7 @@ document.addEventListener("alpine:initializing", () => {
 Alpine.plugin(PineconeRouter)
 Alpine.plugin(ajax)
 Alpine.plugin(AutoAnimate)
+Alpine.plugin(alpineMotion)
 Alpine.plugin(Toolkit)
 Alpine.plugin(jsz)
 window.Alpine = Alpine

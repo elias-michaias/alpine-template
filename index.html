@@ -3,37 +3,30 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./public/favicon.png" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.png" />
   <link href="./index.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>[x-cloak] {display: none !important}</style>
   <script src="https://unpkg.com/@vimesh/ui"></script>
+  <script defer type="module" src="/index.js"></script>
   <title>Pineblog</title>
 </head>
 
-<body class="m-5" x-import="
-  counter
-">
-
+<body class="m-5 x-cloak" x-data>
   
-  <template x-route="/" x-template="/routes/home.html"></template>
+  <template x-route="/" x-template="home.html"></template>
+  <template x-route="/about" x-template="about.html"></template>
+  <template x-route="/blog" x-template="blog.html"></template>
+  <template x-route="/contact" x-template="contact.html"></template>
 
-  <div class="p-4" x-markdown="`
+  <!--Building with Vite via 'npm run $1' will compile /content/*.md into /src/blog/*.html-->
+  <!--<div> tag is automatically prepended and closing tag appended to compiled html file-->
+  <!--This allows Pinecone Router to fetch them as a template through a given route-->
+  <template x-route="/test" x-template="test.html"></template>
 
-# This is some markdown content.
-**Bold!**
-*Italic!* 
-***Both?***
+  <a href="/test">Test</a>
+  <img src="/alpine.png" alt="Alpine" width="100px" height="100px">
 
-+ List 
-+ With 
-+ Items
-
-~~Strikethrough~~
-
-  `"></div>
-
-  <script type="module" src="/index.js"></script>
 </body>
 
 </html>
